@@ -2,7 +2,7 @@ def dyvo_insert(sentence, flag):
     """
     Inserting word "диво" before every word that starts with flag.
     >>> dyvo_insert("Кит кота по хвилях катав - кит у воді, кіт на киті","ки")
-    Диво кит кота по хвилях катав - диво кит у воді, кіт на диво киті
+    'Диво кит кота по хвилях катав - диво кит у воді, кіт на диво киті'
     """
     buf=""
     sentence=sentence.lower()
