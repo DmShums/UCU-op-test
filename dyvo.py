@@ -15,4 +15,3 @@ def dyvo_insert(sentence, flag):
 if __name__ == "__main__":
     import doctest
     doctest.testmod()
-    
