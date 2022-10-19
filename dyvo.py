@@ -12,4 +12,7 @@ def dyvo_insert(sentence, flag):
         else:
             buf+=i+" "
     return buf.capitalize().strip()
-print(dyvo_insert("Кит кота по хвилях катав - кит у воді, кіт на киті","ки"))
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod()
+    
